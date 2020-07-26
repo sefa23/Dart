@@ -14,12 +14,12 @@ void main(){
    home: new Scaffold(
           backgroundColor: Colors.white,
        appBar: AppBar(
-          title: Text('TASK MANAGMENT',style: TextStyle(fontSize: 18.0),
+          title: Text('TASK ',style: TextStyle(fontSize: 18.0),
        ),
      ),
        floatingActionButton: FloatingActionButton(onPressed:(){
-           debugPrint("Tıklandı");
-           debugPrint("Sefa");
+           debugPrint("Click");
+           
      },
          child: Icon(Icons.control_point,
          color: Colors.white,
